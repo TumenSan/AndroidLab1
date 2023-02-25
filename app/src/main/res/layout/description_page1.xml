@@ -4,22 +4,26 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".DescriptionPage1">
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:width="341dp"
         android:height="46dp"
         android:fontFamily="sans-serif"
-        android:text="WordsFactory"
+        android:maxHeight="72dp"
+        android:minHeight="72dp"
+        android:text="Learn anytime \nand anywhere"
+        android:textAlignment="center"
         android:textColor="#3C3A36"
         android:textFontWeight="700"
-        android:textSize="40sp"
+        android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="@id/GfG_full_logo"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.722" />
+        app:layout_constraintVertical_bias="0.734" />
 
     <ImageView
         android:id="@+id/GfG_full_logo"
@@ -32,7 +36,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.471"
-        android:src="@drawable/cool_kids_on_wheels" />
+        android:src="@drawable/cool_kids_staying_home" />
 
     <Button
         android:id="@+id/button"
