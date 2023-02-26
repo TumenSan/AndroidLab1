@@ -5,14 +5,14 @@ import android.os.Bundle
 import android.view.View
 import androidx.appcompat.app.AppCompatActivity
 
-class DescriptionPage1 : AppCompatActivity() {
+class DescriptionPage2 : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.description_page1)
+        setContentView(R.layout.description_page2)
     }
 
     public fun nextPage(view: View){
-        val intent = Intent(this, DescriptionPage2::class.java)
+        val intent = Intent(this, DescriptionPage3::class.java)
         startActivity(intent)
     }
 }

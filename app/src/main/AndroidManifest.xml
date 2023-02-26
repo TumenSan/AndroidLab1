@@ -22,6 +22,8 @@
         </activity>
 
         <activity android:name=".DescriptionPage1" />
+        <activity android:name=".DescriptionPage2" />
+        <activity android:name=".DescriptionPage3" />
     </application>
 
 </manifest>
