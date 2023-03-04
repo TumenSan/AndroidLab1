@@ -33,7 +33,7 @@ class SignUp : AppCompatActivity() {
     }
 
     public fun nextPage(view: View){
-        val intent = Intent(this, DescriptionPage2::class.java)
+        val intent = Intent(this, DescriptionPage1::class.java)
         startActivity(intent)
     }
 }

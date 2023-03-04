@@ -5,6 +5,17 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
+    <Button
+        android:id="@+id/button_id"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:background="@drawable/button_style"
+        tools:ignore="MissingConstraints"
+        android:onClick="nextPage"
+        android:text="<"
+        android:textSize="22sp"
+        android:textColor="#78746D" />
+
     <ImageView
         android:id="@+id/GfG_full_logo"
         android:layout_width="0dp"
@@ -24,7 +35,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:width="341dp"
-        android:height="46dp"
+        android:height="32dp"
         android:fontFamily="sans-serif"
         android:maxHeight="32dp"
         android:minHeight="32dp"
@@ -44,7 +55,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="66dp"
-        android:layout_marginTop="52dp"
+        android:layout_marginTop="42dp"
         android:layout_marginEnd="67dp"
         android:text="Create your account"
         app:layout_constraintEnd_toEndOf="parent"
@@ -64,7 +75,7 @@
         android:minHeight="48dp"
         android:padding="10dp"
         android:textAlignment="viewStart"
-        android:textColor="#6bfff7"
+        android:textColor="#78746D"
         android:textColorHint="#78746D"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -82,7 +93,7 @@
         android:minHeight="48dp"
         android:padding="10dp"
         android:textAlignment="viewStart"
-        android:textColor="#6bfff7"
+        android:textColor="#78746D"
         android:textColorHint="#78746D"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -101,7 +112,7 @@
         android:minHeight="48dp"
         android:padding="10dp"
         android:textAlignment="viewStart"
-        android:textColor="#6bfff7"
+        android:textColor="#78746D"
         android:textColorHint="#78746D"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -112,18 +123,38 @@
         android:layout_width="311dp"
         android:layout_height="60dp"
         android:layout_marginStart="111dp"
-        android:layout_marginTop="32dp"
+        android:layout_marginTop="10dp"
         android:layout_marginEnd="112dp"
         android:backgroundTint="#E3562A"
         android:onClick="nextPage"
         android:text="Sign Up"
         android:textColor="#FFFFFF"
         app:cornerRadius="16dp"
+        android:textAllCaps="false"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/et_password"
         tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/btn_submit2"
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="111dp"
+        android:layout_marginTop="72dp"
+        android:layout_marginEnd="112dp"
+        android:background="@android:color/transparent"
+        android:onClick="nextPage"
+        android:padding="0dp"
+        android:text="Log in"
+        android:textAllCaps="false"
+        android:textColor="#78746D"
+        android:textSize="13sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/et_password"
+        tools:ignore="MissingConstraints,TouchTargetSizeCheck" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

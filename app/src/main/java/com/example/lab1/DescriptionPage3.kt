@@ -12,7 +12,7 @@ class DescriptionPage3 : AppCompatActivity() {
     }
 
     public fun nextPage(view: View){
-        val intent = Intent(this, DescriptionPage1::class.java)
+        val intent = Intent(this, SignUp::class.java)
         startActivity(intent)
     }
 }
