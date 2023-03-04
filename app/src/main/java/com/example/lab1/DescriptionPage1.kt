@@ -15,4 +15,9 @@ class DescriptionPage1 : AppCompatActivity() {
         val intent = Intent(this, DescriptionPage2::class.java)
         startActivity(intent)
     }
+
+    public fun skip(view: View){
+        val intent = Intent(this, SignUp::class.java)
+        startActivity(intent)
+    }
 }
