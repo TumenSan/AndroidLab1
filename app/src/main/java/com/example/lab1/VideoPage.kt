@@ -30,11 +30,3 @@ class VideoPage : AppCompatActivity() {
         }
     }
 }
-
-/*
-<com.google.android.youtube.player.YouTubePlayerView
-        android:id="@+id/youtube_view"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        tools:ignore="MissingClass" />
- */
