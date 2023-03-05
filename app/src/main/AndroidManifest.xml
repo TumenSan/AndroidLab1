@@ -25,6 +25,7 @@
         <activity android:name=".DescriptionPage2" />
         <activity android:name=".DescriptionPage3" />
         <activity android:name=".SignUp" />
+        <activity android:name=".VideoPage" />
     </application>
 
 </manifest>
