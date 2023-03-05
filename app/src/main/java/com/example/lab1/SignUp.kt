@@ -14,6 +14,10 @@ class SignUp : AppCompatActivity() {
         setContentView(R.layout.signup_page)
     }
 
+    public fun firstPage(view: View){
+        val intent = Intent(this, DescriptionPage1::class.java)
+        startActivity(intent)
+    }
     public fun nextPage(view: View){
         // get reference to all views
 

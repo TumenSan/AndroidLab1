@@ -6,20 +6,27 @@
     android:layout_height="match_parent">
 
     <Button
-        android:id="@+id/button_id"
+        android:id="@+id/button_back"
+        style="@style/Widget.MaterialComponents.Button.OutlinedButton.Icon"
         android:layout_width="48dp"
         android:layout_height="48dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
-        android:background="@drawable/circle_button"
-        android:backgroundTint="#E3562A"
-        android:onClick="nextPage"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:contentDescription="back"
+        android:gravity="center"
+        android:insetTop="0dp"
+        android:insetBottom="0dp"
+        app:cornerRadius="24sp"
         android:text="&lt;"
-        android:textColor="#78746D"
-        android:textSize="22sp"
+        android:textColor="#3C3A36"
+        android:textSize="24sp"
+        android:onClick="firstPage"
+        app:iconGravity="textStart"
+        app:iconPadding="0dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        tools:ignore="MissingConstraints" />
+        app:strokeColor="#BEBAB3"
+        app:strokeWidth="1dp" />
 
     <ImageView
         android:id="@+id/GfG_full_logo"
