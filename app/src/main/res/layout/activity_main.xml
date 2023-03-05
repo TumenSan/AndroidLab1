@@ -35,20 +35,4 @@
         app:layout_constraintVertical_bias="0.471"
         android:src="@drawable/cool_kids_on_wheels" />
 
-    <Button
-        android:id="@+id/button"
-        android:layout_width="188dp"
-        android:layout_height="60dp"
-        android:layout_marginStart="111dp"
-        android:layout_marginTop="61dp"
-        android:layout_marginEnd="112dp"
-        android:backgroundTint="#E3562A"
-        android:onClick="nextPage"
-        android:text="Next"
-        android:textColor="#FFFFFF"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView"
-        tools:ignore="MissingConstraints" />
-
 </androidx.constraintlayout.widget.ConstraintLayout>

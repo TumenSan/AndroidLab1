@@ -12,7 +12,7 @@
         android:layout_marginStart="8dp"
         android:background="@drawable/button_style"
         android:onClick="nextPage"
-        android:text="a"
+        android:text="&lt;"
         android:textColor="#78746D"
         android:textSize="22sp"
         app:layout_constraintStart_toStartOf="parent"
