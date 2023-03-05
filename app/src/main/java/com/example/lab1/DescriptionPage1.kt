@@ -11,15 +11,14 @@ class DescriptionPage1 : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.description_page1)
-
-        /*
+/*
         val dotsIndicator = findViewById<DotsIndicator>(R.id.dots_indicator)
         val viewPager = findViewById<ViewPager>(R.id.view_pager)
         val adapter = ViewPagerAdapter()
         viewPager.adapter = adapter
         dotsIndicator.attachTo(viewPager)
+ */
 
-         */
     }
 
     public fun nextPage(view: View){
