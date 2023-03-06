@@ -15,7 +15,7 @@ class SignUp : AppCompatActivity() {
     }
 
     public fun firstPage(view: View){
-        val intent = Intent(this, DescriptionPage1::class.java)
+        val intent = Intent(this, DescriptionPageMain::class.java)
         startActivity(intent)
     }
     public fun nextPage(view: View){

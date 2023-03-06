@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">Lab1</string>
+
+    <string-array name="image_list">
+        <item>@drawable/cool_kids_high_tech</item>
+        <item>@drawable/cool_kids_long_distance_relationship</item>
+        <item>@drawable/cool_kids_staying_home</item>
+    </string-array>
 </resources>

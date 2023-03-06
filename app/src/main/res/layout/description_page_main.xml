@@ -4,13 +4,12 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".DescriptionPage1">
+    tools:context=".DescriptionPageMain">
 
     <androidx.viewpager2.widget.ViewPager2
-        android:id="@+id/view_pager"
+        android:id="@+id/viewPager2"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        tools:ignore="MissingConstraints" />
+        android:layout_height="match_parent"/>
 
     <Button
         android:id="@+id/button_id"
@@ -24,8 +23,22 @@
         android:textAllCaps="false"
         android:textColor="#78746D"
         android:textSize="14sp"
+        android:layout_gravity="bottom|center_horizontal"
         app:layout_constraintEnd_toEndOf="parent"
         tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/GfG_full_logo"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.321" />
 
     <TextView
         android:id="@+id/textView2"
@@ -66,7 +79,6 @@
         android:layout_width="311dp"
         android:layout_height="60dp"
         android:layout_marginStart="111dp"
-        android:layout_marginTop="108dp"
         android:layout_marginEnd="112dp"
         android:backgroundTint="#E3562A"
         android:onClick="nextPage"
@@ -74,39 +86,29 @@
         android:textAllCaps="false"
         android:textColor="#FFFFFF"
         app:cornerRadius="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.939"
         tools:ignore="MissingConstraints" />
 
     <com.tbuonomo.viewpagerdotsindicator.DotsIndicator
         android:id="@+id/dots_indicator"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
+        android:layout_marginBottom="32dp"
         app:dotsColor="#D5D4D4"
         app:dotsCornerRadius="8dp"
         app:dotsSize="8dp"
         app:dotsSpacing="4dp"
         app:dotsWidthFactor="2.5"
-        app:layout_constraintTop_toBottomOf="@+id/textView3"
+        app:layout_constraintBottom_toTopOf="@+id/button"
         app:progressMode="true"
         app:selectedDotColor="#65AAEA"
         tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="166dp" />
 
-    <ImageView
-        android:id="@+id/GfG_full_logo"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:src="@drawable/cool_kids_long_distance_relationship"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.321" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
