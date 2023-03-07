@@ -23,7 +23,12 @@ class DescriptionPageMain : AppCompatActivity() {
     }
 
     public fun nextPage(view: View){
-        viewPager2.setCurrentItem(viewPager2.currentItem +1)
+        if (viewPager2.currentItem > 1){
+            val intent = Intent(this, SignUp::class.java)
+            startActivity(intent)
+        }
+        viewPager2.setCurrentItem(viewPager2.currentItem + 1)
+
         //intent на след activity
         //val intent = Intent(this, DescriptionPage2::class.java)
         //startActivity(intent)
