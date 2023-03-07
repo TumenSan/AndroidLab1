@@ -9,27 +9,6 @@
     <!-- TODO: Update blank fragment layout -->
 
     <TextView
-        android:id="@+id/textView7"
-        android:layout_width="343dp"
-        android:layout_height="105dp"
-        android:layout_marginTop="16dp"
-        android:width="120dp"
-        android:height="32dp"
-        android:background="@drawable/et_style"
-        android:fontFamily="sans-serif"
-        android:maxHeight="32dp"
-        android:minHeight="32dp"
-        android:padding="12dp"
-        android:text="The practice or skill of preparing food by combining, mixing, and heating ingredients."
-        android:textAlignment="viewStart"
-        android:textColor="#3C3A36"
-        android:textFontWeight="700"
-        android:textSize="15sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView6" />
-
-    <TextView
         android:id="@+id/textView4"
         android:layout_width="40dp"
         android:layout_height="wrap_content"
@@ -142,27 +121,92 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView5" />
 
-    <TextView
-        android:id="@+id/textView6"
+    <LinearLayout
+        android:id="@+id/linearLayout"
         android:layout_width="343dp"
         android:layout_height="105dp"
         android:layout_marginTop="16dp"
-        android:width="120dp"
-        android:height="32dp"
         android:background="@drawable/et_style"
-        android:fontFamily="sans-serif"
-        android:maxHeight="32dp"
-        android:minHeight="32dp"
-        android:padding="12dp"
-        android:text="The practice or skill of preparing food by combining, mixing, and heating ingredients."
-        android:textAlignment="viewStart"
-        android:textColor="#3C3A36"
-        android:textFontWeight="700"
-        android:textSize="15sp"
+        android:gravity="center"
+        android:orientation="vertical"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+        app:layout_constraintTop_toBottomOf="@+id/textView2">
 
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="324dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="4dp"
+            android:fontFamily="sans-serif"
+            android:text="The practice or skill of preparing food by combining, mixing, and heating ingredients."
+            android:textAlignment="viewStart"
+            android:textColor="#3C3A36"
+            android:textFontWeight="700"
+            android:textSize="15sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="324dp"
+            android:layout_height="30dp"
+            android:fontFamily="sans-serif"
+            android:text="@string/example"
+            android:textAlignment="viewStart"
+            android:textColor="#3C3A36"
+            android:textFontWeight="700"
+            android:textSize="15sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="343dp"
+        android:layout_height="105dp"
+        android:background="@drawable/et_style"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout">
+
+        <TextView
+            android:id="@+id/textView21"
+            android:layout_width="324dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="4dp"
+            android:fontFamily="sans-serif"
+            android:text="The practice or skill of preparing food by combining, mixing, and heating ingredients."
+            android:textAlignment="viewStart"
+            android:textColor="#3C3A36"
+            android:textFontWeight="700"
+            android:textSize="15sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+
+        <TextView
+            android:id="@+id/textView22"
+            android:layout_width="324dp"
+            android:layout_height="30dp"
+            android:fontFamily="sans-serif"
+            android:text="@string/example"
+            android:textAlignment="viewStart"
+            android:textColor="#3C3A36"
+            android:textFontWeight="700"
+            android:textSize="15sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+    </LinearLayout>
 
     <Button
         android:id="@+id/button"
