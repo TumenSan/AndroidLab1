@@ -6,4 +6,6 @@
         <item>@drawable/cool_kids_long_distance_relationship</item>
         <item>@drawable/cool_kids_staying_home</item>
     </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

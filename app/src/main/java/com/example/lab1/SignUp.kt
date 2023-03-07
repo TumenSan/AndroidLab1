@@ -33,7 +33,7 @@ class SignUp : AppCompatActivity() {
             // Если хоть одна переменная пустая или null, то выводим сообщение об ошибке
             Toast.makeText(this@SignUp, "Error, missing text", Toast.LENGTH_LONG).show()
         } else {
-            val intent = Intent(this, VideoPage::class.java)
+            val intent = Intent(this, WordsDictionary::class.java)
             startActivity(intent)
         }
     }

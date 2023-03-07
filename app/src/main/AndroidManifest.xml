@@ -28,6 +28,7 @@
         <activity android:name=".SignUp" />
         <activity android:name=".DescriptionPageMain" />
         <activity android:name=".VideoPage" />
+        <activity android:name=".WordsDictionary" />
     </application>
 
 </manifest>
