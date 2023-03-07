@@ -18,7 +18,7 @@ class WordsDictionary : AppCompatActivity() {
     private val trainingFragment = TrainingFragment()
     private val videoFragment = VideoFragment()
 
-    @SuppressLint("MissingInflatedId")
+    //@SuppressLint("MissingInflatedId")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.words_dictionary)
