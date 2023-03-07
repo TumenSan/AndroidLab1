@@ -2,9 +2,12 @@ package com.example.lab1
 
 import android.content.Intent
 import android.os.Bundle
+import android.text.method.HideReturnsTransformationMethod
+import android.text.method.PasswordTransformationMethod
 import android.view.View
 import android.widget.Button
 import android.widget.EditText
+import android.widget.ImageView
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 
@@ -37,5 +40,21 @@ class SignUp : AppCompatActivity() {
             startActivity(intent)
         }
     }
+
+/*
+    show_pass_btn.setOnClickListener
+    {
+        if (showHideBtn.text.toString().equals("Show")) {
+            et_password.transformationMethod = HideReturnsTransformationMethod.getInstance()
+            showHideBtn.text = "Hide"
+        } else {
+            et_password.transformationMethod = PasswordTransformationMethod.getInstance()
+            showHideBtn.text = "Show"
+        }
+    }
+    */
+    //public fun ShowHidePass(view: View){
+
+    //}
 
 }
