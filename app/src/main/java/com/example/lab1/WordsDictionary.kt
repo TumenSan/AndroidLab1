@@ -1,8 +1,10 @@
 package com.example.lab1
 
+import android.annotation.SuppressLint
 import android.content.Intent
 import android.os.Bundle
 import android.view.View
+import android.webkit.WebView
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.Fragment
@@ -16,10 +18,14 @@ class WordsDictionary : AppCompatActivity() {
     private val trainingFragment = TrainingFragment()
     private val videoFragment = VideoFragment()
 
+    @SuppressLint("MissingInflatedId")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.words_dictionary)
         replaceFragment(dictionaryFragment)
+
+        //val myWebView: WebView = findViewById(R.id.webview)
+        //myWebView.loadUrl("https://developer.android.com/develop/ui/views/layout/webapps/webview")
 
         var bottom_nav = findViewById<BottomNavigationView>(R.id.bottom_navigation)
 
