@@ -1,6 +1,8 @@
 package com.example.lab1
 
+import android.content.Intent
 import android.os.Bundle
+import android.view.View
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.Fragment
@@ -39,5 +41,10 @@ class WordsDictionary : AppCompatActivity() {
             transaction.replace(R.id.fragment_container, fragment)
             transaction.commit()
         }
+    }
+
+    public fun nextPage(view: View){
+        //val intent = Intent(this, DescriptionPage2::class.java)
+        //startActivity(intent)
     }
 }
