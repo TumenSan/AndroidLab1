@@ -32,7 +32,10 @@ class VideoFragment : Fragment() {
         val rootView = inflater.inflate(R.layout.fragment_video, container, false)
         val webView: WebView = rootView.findViewById(R.id.webview)
         //webView.loadUrl("https://developer.android.com/develop/ui/views/layout/webapps/webview")
-        webView.loadUrl("https://www.youtube.com/watch?v=mgty3Bgu-YY&ab_channel=LearnEnglishwithEnglishClass101.com")
+        //webView.loadUrl("https://www.youtube.com/watch?v=mgty3Bgu-YY&ab_channel=LearnEnglishwithEnglishClass101.com")
+        webView.loadUrl("https://learnenglish.britishcouncil.org/general-english/video-zone")
+        webView.settings.javaScriptEnabled = true
+        webView.settings.setSupportZoom(true)
         return rootView
 
         //val notificationsViewModel = ViewModelProvider(this).get(NotificationsViewModel::class.java)
